@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Payment Form</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/stylepay.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="./assets/images/bookk-rem.png" alt="logo"></div>
+            <li><a href="./index.html" ><i class="bi bi-house-door"></i>   Home</a></li>
+            <li><a href="book_catalog.html"><i class="bi bi-book-half"></i>   Books Catalogue</a></li>
+            <li><a href=""><i class="bi bi-cart4"></i>   Cart</a></li>
+            <li><a href="register.html"><i class="bi bi-person-add"></i>    Register</a></li>
+            <li><a href="user_login.html"><i class="bi bi-box-arrow-in-right"></i>   Log in</a></li>
+        </ul>
+    </nav>
+    <div class="sec">
+    <div class="container">
+        <h1>Confirm Your Payment</h1>
+            <div class="first-row">
+                <div class="field owner">
+                    <h3>Owner</h3>
+                    <div class="input-field">
+                        <input type="text" placeholder="Owner">
+                    </div>
+                </div>
+                <div class="field cvv">
+                    <h3>CVV</h3>
+                    <div class="input-field">
+                        <input type="password" placeholder="CVV">
+                    </div>
+                </div>
+            </div>
+            <div class="field second-row">
+                <div class="card-number">
+                    <h3>Card Number</h3>
+                    <div class="input-field">
+                        <input type="text" placeholder="Card Number">
+                    </div>
+                </div>
+            </div>
+            <div class="third-row">
+                <h3>Expired Date</h3>
+                <div class="selection">
+                    <div class="date">
+                            <select name="months" id="months">
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                        </select>
+                        <select name="years" id="years">
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                        </select>
+                    </div>
+                
+                    <div class="cards">
+                        <img src="assets/images/mc.png" alt="">
+                        <img src="assets/images/vi.png" alt="">
+                        <img src="assets/images/pp.png" alt="">
+                    </div>
+            </div>    
+        </div>
+        <a href="index.html">Confirm</a>
+    </div>
+</div>
+</body>
+</html>
