@@ -77,7 +77,7 @@ body{
 }
 
 .container a:hover{
-    background-image: linear-gradient(to right,#3f5ac5);
+    background: #3f5ac5;
 }
 
 .cards img{
@@ -100,5 +100,4 @@ input::placeholder{
 }
   
 
- 
   
