@@ -87,7 +87,7 @@
 }
 
 .bg{   
-    background: url('assets/images/1.jpg');
+    background: url('./assets/images/1.jpg');
     height: 450px; 
     width: 1590px; 
     position:relative;

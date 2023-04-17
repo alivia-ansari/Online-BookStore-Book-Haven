@@ -221,10 +221,14 @@ form input[type="submit"]:hover{
   position: relative;
 }
 
+
 .B a{
   text-decoration: none;
 }
 
+.B:hover{
+  background: #2c52ed;
+}
 
 h1{
   font-size: 30px;
