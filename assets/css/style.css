@@ -50,7 +50,7 @@
 .nav-list li a:hover{    
     color: #000000;
     background: rgb(255, 245, 154);
-    padding: 7px 15px;
+    padding: 2px 6px;
     border-radius: 7px;
 }
 
